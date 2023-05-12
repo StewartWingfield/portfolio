@@ -1,0 +1,28 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    padding: 40px;
+    text-align: center;
+    border: solid 5px black;
+    background-color: rgb(254, 237, 216);
+}
+.hades{
+    padding: 20px;
+}
+.binary{
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(240, 117, 23);
+}
+.summary{
+
+}
+.resize {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
