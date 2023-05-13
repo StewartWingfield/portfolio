@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" >
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" >
+    </div>
+    <div>
+      <textarea placeholder="comments" maxlength="500" minlength="20"></textarea>
+    </div>
+    <div>
+      How did you hear about me?
+      <div>
+        <label for="classmate">Classmate</label>
+        <input type="checkbox" name="classmate" id="classmate">
+      </div>
+      <div>
+        <label for="resumeSubmission">Resume Submission</label>
+        <input type="checkbox" name="resumeSubmission" id="resumeSubmission">
+      </div>
+      <div>
+        <label for="linkedIn">LinkedIn</label>
+        <input type="checkbox" name="linkedIn" id="linkedIn">
+      </div>
+      <div>
+        <label for="codingAcademyRec">Coding Academy Rec</label>
+        <input type="checkbox" name="codingAcademyRec" id="codingAcademyRec">
+      </div>
+    </div>
+    <div>
+      Would you like to be contacted back?
+      <div>
+        <label for="yes">yes</label>
+        <input type="radio" name="contacted" id="yes" value="yes">
+      </div>
+      <div>
+        <label for="no">no</label>
+        <input type="radio" name="contacted" id="no" value="no">
+      </div>
+      <div>
+        <label for="birthday">Want us to wish you a Happy Birthday?</label>
+        <input type="date" name="date" id="date">
+      </div>
+    </div>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+  </form>
+  <!-- <script src="scripts.js"></script> -->
+</body>
+</html>
