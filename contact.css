@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
+    background-color: rgb(254, 237, 216);
   }
   
   form {
@@ -13,11 +13,10 @@ body {
   }
   
   label {
-    display: block;
+    display: inline-block;
   }
   
   input,textarea {
-    display: block;
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -33,21 +32,22 @@ body {
   input[type="checkbox"], input[type="radio"] {
     display: inline-block;
     margin-right: 5px;
+    vertical-align: top;
+    width: 10px;
   }
   
   button {
-    display: inline-block;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: rgb(240, 117, 23);
     color: #fff;
     cursor: pointer;
   }
   
   button[type="reset"] {
     background-color: #ccc;
-    color: #000;
+    color: black;
     margin-right: 10px;
   }
   
@@ -70,8 +70,7 @@ body {
       font-size: 0.9em;
     }
   
-    input,
-    textarea {
+    input,textarea {
       font-size: 0.9em;
       padding: 8px;
     }
